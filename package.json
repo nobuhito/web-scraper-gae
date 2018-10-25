@@ -1,0 +1,19 @@
+{
+  "name": "web-scraper-gae",
+  "description": "Scrape with Google App Engine Standard for web page.",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Nobuhito.sato@gmail.com",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "puppeteer": "^1.9.0"
+  }
+}
